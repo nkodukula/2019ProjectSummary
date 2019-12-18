@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
 }
 
 .App-header {
@@ -19,4 +19,148 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.screenshot-img {
+  height: 100vmin;
+}
+.homepage-wrapper {
+  position: relative;
+  background-color: #fff;
+  color: #fff;
+  padding-bottom: 0;
+}
+.homepage-wrapper .homepage-container {
+  max-width: 1215px;
+  padding: 0 30px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.homepage-wrapper .homepage-fb .homepage-fb-content {
+  max-width: 450px;
+  line-height: 1.5rem;
+}
+.homepage-footer {
+  color: #222;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  background: #fff;
+  padding: 4rem;
+ 
+}
+.homepage-footer .homepage-footer-copyright {
+  font-size: .875rem;
+  text-align: center;
+}
+.homepage-wrapper .homepage-fb.homepage-fb2 {
+  background: #222 url(https://www2.arccorp.com/globalassets/fds/fds-jumbo-2.png) no-repeat 100%;
+  background-size: cover;
+  padding: 170px;
+}
+.homepage-wrapper .homepage-container {
+  max-width: 1215px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.homepage-wrapper .homepage-fb .homepage-fb-content {
+  max-width: 850px;
+  line-height: 1.5rem;
+}
+.homepage-wrapper .homepage-fb.homepage-fb2 h2, .homepage-wrapper .homepage-fb.homepage-fb2 p {
+  margin-bottom: 30px;
+}
+.homepage-wrapper .homepage-card-container h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.homepage-wrapper a {
+  text-decoration: none;
+  color: #fff;
+}
+.homepage-wrapper h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.fds-button--primary {
+  background-color: #21b8d1;
+  color: #fff;
+  fill: #fff;
+}
+.fds-button {
+  align-items: center;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: auto;
+  min-height: 3rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  fill: #fff;
+  border: .0625rem solid transparent;
+}
+.homepage-card-container {
+    background: #2a2b31 url(https://www2.arccorp.com/globalassets/about-us/our-data/redesign/transactionaldata.jpg) top center no-repeat;
+    background-size: 100% auto;
+    padding: 90px 0 60px;
+  padding: 80px 0;
+}
+.homepage-card-container-overview {
+  background: #2a2b31 url(https://www2.arccorp.com/globalassets/about-us/our-data/redesign/dataSection1.jpg) top center no-repeat;
+  background-size: 100% auto;
+  padding: 90px 0 60px;
+padding: 80px 0;
+}
+
+.homepage-wrapper .homepage-card-container .homepage-card-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: .5rem;
+}
+.homepage-wrapper .homepage-card-container .homepage-card.homepage-card-1, .homepage-wrapper .homepage-card-container a.homepage-card.homepage-card-1, .homepage-wrapper .homepage-card-container a.homepage-card:visited.homepage-card-1 {
+  background: #292b42;
+}
+.homepage-wrapper .homepage-card-container .homepage-card, .homepage-wrapper .homepage-card-container a.homepage-card, .homepage-wrapper .homepage-card-container a.homepage-card:visited {
+  background: #ddd;
+  padding: 25px;
+  text-decoration: none;
+}
+.homepage-wrapper .homepage-card-container .hero-card-grid-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: .5rem;
+}
+.homepage-wrapper .homepage-card-container .homepage-card.homepage-card-2, .homepage-wrapper .homepage-card-container a.homepage-card.homepage-card-2, .homepage-wrapper .homepage-card-container a.homepage-card:visited.homepage-card-2 {
+  background: #515b5e;
+}
+.homepage-wrapper .homepage-card-container .homepage-card-copy {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.7rem;
+  height: 8.5rem;
+}
+.carousel-container{
+  max-width: 850px;
+  margin:0 auto;
+}
+.carousel-container img{
+  width: 750px;
+  height: auto;
+}
+.carousel-caption{
+  background: #2a2b31;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
 }
