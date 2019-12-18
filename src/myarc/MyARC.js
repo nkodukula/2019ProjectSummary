@@ -7,6 +7,7 @@ import image4 from './airline-education1.jpg';
 import image5 from './airline-education2.jpg';
 import image6 from './atac.jpg';
 import image7 from './csa.jpg';
+import image8 from './online-payments.jpg';
 
 class MyARC extends React.Component{
 
@@ -88,6 +89,17 @@ class MyARC extends React.Component{
                     />
                     <Carousel.Caption>
                     <h3>Carrier Service Agreement (CSA)</h3>
+                    <p></p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={image8}
+                    alt="ARC Online Payments"
+                    />
+                    <Carousel.Caption>
+                    <h3>ARC Online Payments</h3>
                     <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>

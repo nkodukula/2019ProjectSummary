@@ -33,7 +33,8 @@ class Corpsite extends React.Component{
                   <li><a href="https://www2.arccorp.com/products-participation/products/arc-pay/">ARC Pay</a></li>
                   <li>Custom  Reports</li>
                   <li>ARC Events</li>  
-                             
+                  <li>Integration of Adobe Sign</li>
+                  <li>ARC Internal and External Career Portal Customization - iCIMS</li>
                 </ul>
             </div>
             

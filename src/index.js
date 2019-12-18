@@ -14,7 +14,8 @@ import Corpsite from './corpsite/Corpsite';
 import TravelConnect from './TC/TravelConnect';
 import TravelJourney from './TravelJourney/TravelJourney';
 import Cvent from './cvent/Cvent';
-
+import Roadmap from './2020/Roadmap';
+import Sharepoint from './sharepoint/Sharepoint';
 
 const routing = (
   <Router>
@@ -29,6 +30,8 @@ const routing = (
       <Route path="/campaigns" component={Campaigns} />
       <Route path="/cxux" component={Cxux} />
       <Route path="/cvent" component={Cvent} />
+      <Route path="/2020" component={Roadmap} />
+      <Route path="/sharepoint" component={Sharepoint} />
     
     </div>
   </Router>

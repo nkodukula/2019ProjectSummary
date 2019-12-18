@@ -11,6 +11,7 @@ class Campaigns extends React.Component{
           <div className="homepage-card-grid">
             <div className="homepage-card homepage-card-1 hero-card-grid-2">
             <ul>
+            <li>Digital Advertising</li>
             <li>Events</li>
             <li>Products</li>
             <li>ARC culture </li>
