@@ -16,92 +16,91 @@ class MyARC extends React.Component{
             <div className="homepage-wrapper mb-5 mt-5">
             <Carousel className="carousel-fade" data-interval="false">
                 <Carousel.Item>
+                <div className="carousel-copy p-5"><h3>Manual for Carriers (MFC)</h3>
+                </div>
                     <img
                     className="d-block w-100"
                     src={image1}
                     alt="Manual for Carriers"
                     />
-                    <Carousel.Caption>
-                    <h3>Manual for Carriers (MFC)</h3>
-                    <p></p>
-                    </Carousel.Caption>
+                   
                 </Carousel.Item>    
                 <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>System Provider Working Group</h3>
+                    </div>
                     <img
                     className="d-block w-100"
                     src={image2}
                     alt="System Provider Working Group"
-                    />
-                    <Carousel.Caption>
-                    <h3>System Provider Working Group (SPWG)</h3>                    
-                    <p></p>                    
-               </Carousel.Caption>
+                    />                                     
+        
                 </Carousel.Item>
                 <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>Debit Memo Working Group</h3>
+                    </div>
                 <img
                     className="d-block w-100"
                     src={image3}
                     alt="Debit Memo Working Group"
                     />
-                    <Carousel.Caption>
-                    <h3>Debit Memo Working Group (DMWG)</h3>
-                    <p></p>
-                    </Carousel.Caption>
+                  
                 </Carousel.Item>
                 <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>ARC Airline Education</h3>
+                    </div>
                 <img
                     className="d-block w-100"
                     src={image4}
                     alt="ARC Airline Education"
                     />
-                    <Carousel.Caption>
-                    <h3>ARC Airline Education</h3>
-                    <p></p>
-                    </Carousel.Caption>
+                    
                 </Carousel.Item>
                 <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>ARC Airline Education - Training Page</h3>
+                    </div>
                 <img
                     className="d-block w-100"
                     src={image5}
                     alt="ARC Airline Education"
                     />
-                    <Carousel.Caption>
-                    <h3>ARC Airline Education - Training Page</h3>
-                    <p></p>
-                    </Carousel.Caption>
+                   
                 </Carousel.Item>
                 <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>ARC Transformation Advisory Council (ATAC)</h3>
+                    </div>
                 <img
                     className="d-block w-100"
                     src={image6}
                     alt="ATAC"
                     />
-                    <Carousel.Caption>
-                    <h3>ARC Transformation Advisory Council (ATAC)</h3>
-                    <p></p>
-                    </Carousel.Caption>
+                   
                 </Carousel.Item>
                 <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>Carrier Service Agreement (CSA)</h3>
+                    </div>
                 <img
                     className="d-block w-100"
                     src={image7}
                     alt="CSA"
                     />
-                    <Carousel.Caption>
-                    <h3>Carrier Service Agreement (CSA)</h3>
-                    <p></p>
-                    </Carousel.Caption>
+                   
                 </Carousel.Item>
                 <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>ARC Online Payments</h3>
+                    </div>
                 <img
                     className="d-block w-100"
                     src={image8}
                     alt="ARC Online Payments"
                     />
-                    <Carousel.Caption>
-                    <h3>ARC Online Payments</h3>
-                    <p></p>
-                    </Carousel.Caption>
+                   
                 </Carousel.Item>
             </Carousel>
  
