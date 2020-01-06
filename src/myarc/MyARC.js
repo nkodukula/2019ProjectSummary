@@ -8,6 +8,8 @@ import image5 from './airline-education2.jpg';
 import image6 from './atac.jpg';
 import image7 from './csa.jpg';
 import image8 from './online-payments.jpg';
+import image9 from './login.jpg';
+import image10 from './dashboard.jpg';
 
 class MyARC extends React.Component{
 
@@ -140,6 +142,27 @@ class MyARC extends React.Component{
                 <img
                     className="d-block w-100"
                     src={image8}
+                    alt="ARC Online Payments"
+                    />
+                   
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>My ARC Login</h3>
+                    </div>
+                <img
+                    className="d-block w-100"
+                    src={image9}
+                    alt="ARC Online Payments"
+                    />                   
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                    <h3>My ARC Agency dashboard</h3>
+                    </div>
+                <img
+                    className="d-block w-100"
+                    src={image10}
                     alt="ARC Online Payments"
                     />
                    

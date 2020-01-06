@@ -11,6 +11,10 @@ import image8 from './corp8.jpg';
 import image9 from './corp9.jpg';
 import image10 from './corp10.jpg';
 import image11 from './corp11.jpg';
+import image12 from './corp12.jpg';
+import image13 from './corp13.jpg';
+import image16 from './corp16.jpg';
+import image17 from './corp17.jpg';
 class Corpsite extends React.Component{
 
     render(){
@@ -45,21 +49,24 @@ class Corpsite extends React.Component{
                   <li><a href="https://www2.arccorp.com/about-us/distribution-evolved/">Distribution  Evolved</a></li>
                   <li><a href="https://www2.arccorp.com/articles-trends/blog">Blog</a></li>
                   <li><a href="https://www2.arccorp.com/products-participation/products/arc-pay/">ARC Pay</a></li>
+                  <li>ARC Media Kit</li>
+                  <li>ARC Credit Card Acceptance Chart - Payment Acceptance</li>
                   <li>Custom  Reports</li>
                   <li>ARC Events</li>  
                   <li>Integration of Adobe Sign Forms</li>
                   <li>ARC Internal and External Career Portal Customization - iCIMS</li>
-                </ul>
+                  <li>ARC Credit Card Acceptance Chart - Payment Acceptance</li>
+                  </ul>
             </div>
             
             <div class="homepage-card homepage-card-2">
             <ul>
             <li><a href="https://www2.arccorp.com/about-us/our-data/">Our Data</a></li>
                 <li><a href="https://www2.arccorp.com/about-us/careers/benefits/">Benefits & Perks</a></li>
-                  <li><a href="https://www2.arccorp.com/about-us/careers/our-culture">Our  Culture</a></li>
-                          
+                  <li><a href="https://www2.arccorp.com/about-us/careers/our-culture">Our  Culture</a></li>                          
                   <li><a href="https://www2.arccorp.com/imagemaker">Image Maker</a></li>
                   <li><a href="https://www2.arccorp.com/styleguide">ARC Style Guide</a></li>
+                  <li>ARC News Room</li>
                   <li>Product Sales Request Form Templates<br />
             <a href="https://www2.arccorp.com/products-participation/product-sales-request/airlinebi-a">Template 1</a><br />
             <a href="https://www2.arccorp.com/products-participation/product-sales-request/airlinebi-b">Template 2</a><br />
@@ -67,6 +74,7 @@ class Corpsite extends React.Component{
             <a href="https://www2.arccorp.com/products-participation/product-sales-request/airlinebi-d">Template 4</a></li> 
                 </ul>
                 <li><a href="https://apps.arccorp.com/payment/">ARC Online Payments</a></li>
+
                 </div>
             </div>
                      
@@ -184,6 +192,48 @@ class Corpsite extends React.Component{
                     alt="ARC's Career Pages"
                     />                    
                 </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>Credt Card Acceptance Chart</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image12}
+                    alt="ARC's Career Pages"
+                    />                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>Credt Card Acceptance Chart</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image13}
+                    alt="ARC's Career Pages"
+                    />                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>ARC News Room</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image16}
+                    alt="ARC News Room"
+                    />                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>ARC Media Kit</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image17}
+                    alt="ARC Media Kit"
+                    />                    
+                </Carousel.Item>
+
+                
           </Carousel>
         </div>
         )
