@@ -9,7 +9,7 @@ class Campaigns extends React.Component{
           <div className="homepage-card-container"> 
           <div className='homepage-container'>
           <div className="homepage-content">
-                <h2>Campaigns</h2>
+                <h2 className="animated slideInUp">Campaigns</h2>
           </div>
           <div className="homepage-card-grid">
             <div className="homepage-card homepage-card-1 hero-card-grid-2">

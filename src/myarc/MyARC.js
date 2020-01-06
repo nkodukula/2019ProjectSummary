@@ -19,7 +19,7 @@ class MyARC extends React.Component{
                 <div className="homepage-card-container">
             <div className="homepage-container">
             <div className="homepage-content">
-                <h2>My ARC</h2>                
+                <h2 className="animated slideInUp">My ARC</h2>                
             </div>
             <div class="homepage-card-grid">
           <div class="homepage-card homepage-card-1 hero-card-grid-2">

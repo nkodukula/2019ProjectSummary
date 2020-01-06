@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Card, { CardBody } from 'react-bootstrap/Card';
 import image1 from './sharepoint1.jpg';
 import image2 from './sharepoint2.jpg';
 import image3 from './sharepoint3.jpg';
@@ -16,13 +17,16 @@ class Sharepoint extends React.Component{
           <div className="homepage-card-container"> 
           <div className='homepage-container'>
           <div className="homepage-content">
-          <h2>ARC Central</h2>
-         
+          <h2 className="animated slideInUp">ARC Central</h2>
+          <Card>
+            <Card.Body>
             <ul>
             <li>ARC Employee Education/ Training - #igotskills - Customized the portal</li>
             <li>Education Assistant Program - Created Electronic Version</li>
             <li>Vendor Management Program - Created Electronic Version</li>
             </ul>
+            </Card.Body>
+            </Card>
           </div>             
           </div>
 

@@ -9,7 +9,7 @@ class Overview extends React.Component{
          
           <div className='homepage-container'>     
            
-            <h2>2019 Project Overview</h2>    
+            <h2 className="animated zoomIn">2019 Project Overview</h2>    
             <ul>
             <li>Redesigned Product Sales Request forms – Created 4 different templates</li>
             <li>Redesigned arccorp.com webpages</li>

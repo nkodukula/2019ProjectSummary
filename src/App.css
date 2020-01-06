@@ -41,6 +41,9 @@
   max-width: 450px;
   line-height: 1.5rem;
 }
+.homepage-wrapper .card-group {
+  color: #2a2b31;
+}
 .homepage-footer {
   color: #222;
   grid-template-columns: 50% 50%;
@@ -179,4 +182,7 @@ padding: 80px 0;
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-color:#000;
   padding: 1rem;
+}
+nav .fixed-top{
+border-bottom: #cccccc 1px solid;
 }

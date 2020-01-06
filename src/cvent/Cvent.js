@@ -7,7 +7,7 @@ class Cvent extends React.Component{
         return (               
           <div className="homepage-card-container"> 
           <div className='homepage-container'>
-          <h2>CVENT </h2>
+          <h2 className="animated slideInUp">CVENT </h2>
           <div className="homepage-card-grid">
               <div className="homepage-card homepage-card-1 hero-card-grid-2">
               <ul>

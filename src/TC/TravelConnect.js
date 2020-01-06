@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Card, { CardBody } from 'react-bootstrap/Card';
 import image1 from './tc-web.jpg';
 import image2 from './tc-app.jpg'
 import image3 from './tc-cvent.jpg'
@@ -14,13 +15,17 @@ class TravelConnect extends React.Component{
             <div className="homepage-card-container">
             <div className="homepage-container">
             <div className="homepage-content">
-                <h2>ARC TravelConnect 2019</h2>
-                <ul>
-                    <li>TravelConnect 2019 Website Redesign</li>
-                    <li>TravelConnect 2019 Registration Site in CVENT FLEX</li>
-                    <li>TravelConnect 2019 App built in CrowdCompass with new features</li>
-                    <li>TravelConnect 2019 Post Conference webpage with presentations to download</li>
-                </ul>
+                <h2 className="animated slideInUp">ARC TravelConnect 2019</h2>
+                <Card>
+                    <Card.Body>
+                        <ul>
+                        <li>TravelConnect 2019 Website Redesign</li>
+                        <li>TravelConnect 2019 Registration Site in CVENT FLEX</li>
+                        <li>TravelConnect 2019 App built in CrowdCompass with new features</li>
+                        <li>TravelConnect 2019 Post Conference webpage with presentations to download</li>
+                        </ul>
+                    </Card.Body>
+                </Card>              
 
             </div>
             </div>

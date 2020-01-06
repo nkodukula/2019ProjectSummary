@@ -6,7 +6,7 @@ class Roadmap extends React.Component{
         return ( 
         <div className="homepage-card-container-overview">
                 <div className='homepage-container'>
-                <h2>2020 Roadmap</h2>
+                <h2 className="animated zoomIn">2020 Roadmap</h2>
                 <ul>
   <li>Q1</li>
   <ul>

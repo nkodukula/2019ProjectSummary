@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Card, { CardBody } from 'react-bootstrap/Card';
 import image1 from './tj1.jpg';
 import image2 from './tj2.jpg'
 import image3 from './tj3.jpg'
@@ -14,11 +15,15 @@ class TravelJourney extends React.Component{
                 <div className="homepage-card-container">
             <div className="homepage-container">
             <div className="homepage-content">
-                <h2>ARC TravelJourney</h2>
+                <h2 className="animated slideInUp">ARC TravelJourney</h2>
+                <Card>
+                    <Card.Body>
                 <ul>
                     <li>TravelJourney Website</li>
                     <li>TravelJourney Touch Screen - featured at GBTA and TravelJourney</li>                   
                 </ul>
+            </Card.Body>
+            </Card>
 
             </div>
             </div>

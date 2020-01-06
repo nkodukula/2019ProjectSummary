@@ -13,7 +13,7 @@ class Cxux extends React.Component{
             <div className="homepage-wrapper mb-5 mt-5">  
             <div className="homepage-card-container"> 
             <div className='homepage-container'>
-                <h2>CX/UX Working Groups</h2>
+                <h2 className="animated slideInUp">CX/UX Working Groups</h2>
                 <div class="homepage-card-grid">
           <div class="homepage-card homepage-card-1 hero-card-grid-2">
             <div class="homepage-card-copy">Research</div>
