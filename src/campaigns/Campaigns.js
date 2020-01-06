@@ -5,9 +5,12 @@ class Campaigns extends React.Component{
 
     render(){
         return (
+          <div className="homepage-wrapper mb-5 mt-5">
           <div className="homepage-card-container"> 
           <div className='homepage-container'>
-          <h2>Campaigns</h2>
+          <div className="homepage-content">
+                <h2>Campaigns</h2>
+          </div>
           <div className="homepage-card-grid">
             <div className="homepage-card homepage-card-1 hero-card-grid-2">
             <ul>
@@ -28,6 +31,7 @@ class Campaigns extends React.Component{
             </div>
           </div>
                 
+          </div>
           </div>
           </div>
         )

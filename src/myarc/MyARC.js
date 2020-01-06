@@ -14,9 +14,51 @@ class MyARC extends React.Component{
     render(){
         return ( 
             <div className="homepage-wrapper mb-5 mt-5">
+                <div className="homepage-card-container">
+            <div className="homepage-container">
+            <div className="homepage-content">
+                <h2>My ARC</h2>                
+            </div>
+            <div class="homepage-card-grid">
+          <div class="homepage-card homepage-card-1 hero-card-grid-2">
+            <div class="homepage-card-copy">Redesigned Pages/Websites</div>
+            <div class="homepage-card-icon">
+              <img src="https://www2.arccorp.com/globalassets/fds/fds-design-icon.png" alt=""/>
+            </div>
+          </div>
+            
+            <div class="homepage-card homepage-card-2 hero-card-grid-2">
+              <div class="homepage-card-copy">New Pages/ Websites</div>
+              <div class="homepage-card-icon">
+                <img src="https://www2.arccorp.com/globalassets/fds/fds-developer-icon.png" alt=""/>
+                </div>
+                </div>
+            </div>
+            <div class="homepage-card-grid">
+            <div class="homepage-card homepage-card-1">
+              <ul>
+              <li><a href="https://apps.arccorp.com/payment/">ARC Online Payments App</a></li>                 
+              <li>Carrier Service Agreement</li>
+              <li>TIP Portal Customization</li>
+                </ul>
+            </div>
+            
+            <div class="homepage-card homepage-card-2">
+            <ul>
+            <li><a href="https://www2.arccorp.com/about-us/our-data/">Debit Memo Working Group (DMWG)</a></li>
+                <li><a href="https://www2.arccorp.com/about-us/careers/benefits/">System Provider Working Group (SPWG)</a></li>
+                  <li><a href="https://www2.arccorp.com/about-us/careers/our-culture">ARC Airline Education</a></li>
+                 <li><a href="https://arctraveljourney.com/">Manual for Carriers</a></li>              
+                  <li><a href="https://www2.arccorp.com/imagemaker">ARC Transformation Advisory Council (ATAC)</a></li>
+                 
+                </ul>
+                </div>
+            </div>
+            </div>
+            </div>
             <Carousel className="carousel-fade" data-interval="false">
                 <Carousel.Item>
-                <div className="carousel-copy p-5"><h3>Manual for Carriers (MFC)</h3>
+                <div className="carousel-copy p-5"><h3>Manual for Carriers</h3>
                 </div>
                     <img
                     className="d-block w-100"
@@ -82,7 +124,7 @@ class MyARC extends React.Component{
                 </Carousel.Item>
                 <Carousel.Item>
                 <div className="carousel-copy p-5">
-                    <h3>Carrier Service Agreement (CSA)</h3>
+                    <h3>Carrier Service Agreement</h3>
                     </div>
                 <img
                     className="d-block w-100"

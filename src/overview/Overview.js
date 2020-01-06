@@ -11,7 +11,7 @@ class Overview extends React.Component{
            
             <h2>2019 Project Overview</h2>    
             <ul>
-            <li>Redesigned Product Sales Request forms – 4 different templates</li>
+            <li>Redesigned Product Sales Request forms – Created 4 different templates</li>
             <li>Redesigned arccorp.com webpages</li>
             <ul>
               <li>ARC&rsquo;s  Careers</li>
