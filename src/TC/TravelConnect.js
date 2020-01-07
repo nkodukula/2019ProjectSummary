@@ -5,6 +5,8 @@ import image1 from './tc-web.jpg';
 import image2 from './tc-app.jpg'
 import image3 from './tc-cvent.jpg'
 import image4 from './tc-post.jpg'
+import image5 from './tc-web1.jpg';
+import image6 from './tc-web2.jpg';
 
 
 class TravelConnect extends React.Component{
@@ -26,6 +28,28 @@ class TravelConnect extends React.Component{
                     <img
                     className="d-block w-100"
                     src={image1}
+                    alt="TravelConnect 2019 Website"
+                    />
+                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>TravelConnect 2019 Website</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image5}
+                    alt="TravelConnect 2019 Website"
+                    />
+                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>TravelConnect 2019 Website</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image6}
                     alt="TravelConnect 2019 Website"
                     />
                     
