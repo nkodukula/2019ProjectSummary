@@ -14,7 +14,7 @@ class TravelConnect extends React.Component{
     render(){
         return (
             <div className="homepage-wrapper mb-5 mt-5">                     
-            <div className="homepage-content techJumbo">
+            <div className="homepage-content techJumbo tc">
                 <div className="techOpacity"></div>
                 <h2 className="animated fadeInDown">ARC TravelConnect 2019</h2>
                 <div className="techSub animated fadeInUp">We built upon our previous updates for the TravelConnect site and integrated Amy’s new design for this years design.  We increased our usage for the TravelConnect mobile app this year with less effort as we had experience from last year.</div>               

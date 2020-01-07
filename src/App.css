@@ -197,6 +197,10 @@ border-bottom: #cccccc 1px solid;
   position: relative;
   z-index: 3;
 }
+.tc{
+  background: url( https://www2.arccorp.com/globalassets/home2/2019/postsite/homepage-bg.jpg) no-repeat center center;
+
+}
 .techOpacity {
   background: #212226;
   position: absolute;
