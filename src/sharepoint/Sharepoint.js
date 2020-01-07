@@ -14,21 +14,11 @@ class Sharepoint extends React.Component{
     render(){
         return (
         <div className="homepage-wrapper mb-5 mt-5">
-          <div className="homepage-card-container"> 
-          <div className='homepage-container'>
-          <div className="homepage-content">
-          <h2 className="animated slideInUp">ARC Central</h2>
-          <Card>
-            <Card.Body>
-            <ul>
-            <li>ARC Employee Education/ Training - #igotskills - Customized the portal</li>
-            <li>Education Assistant Program - Created Electronic Version</li>
-            <li>Vendor Management Program - Created Electronic Version</li>
-            </ul>
-            </Card.Body>
-            </Card>
-          </div>             
-          </div>
+           <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">ARC Central- SharePoint</h2>
+                <div className="techSub animated fadeInUp">We focused on creating electronic version of frequently used paper forms to increase processing time and reduce risk.  Additional, HR pages and subsites were branded by the web team to keep the brand consistent.</div>               
+            </div>
 
           <Carousel className="carousel-fade" data-interval="false">
                 <Carousel.Item>
@@ -99,7 +89,6 @@ class Sharepoint extends React.Component{
                 </Carousel.Item>    
           </Carousel>
           </div>
-        </div>
         )
     }
 }

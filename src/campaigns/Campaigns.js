@@ -6,11 +6,14 @@ class Campaigns extends React.Component{
     render(){
         return (
           <div className="homepage-wrapper mb-5 mt-5">
+             <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">ARC Campaigns and Social Media Marketing</h2>
+                <div className="techSub animated fadeInUp">Lorem Ipsum</div>               
+            </div>
           <div className="homepage-card-container"> 
           <div className='homepage-container'>
-          <div className="homepage-content">
-                <h2 className="animated slideInUp">Campaigns</h2>
-          </div>
+         
           <div className="homepage-card-grid">
             <div className="homepage-card homepage-card-1 hero-card-grid-2">
             <ul>

@@ -20,11 +20,14 @@ class Corpsite extends React.Component{
     render(){
         return (                 
         <div className="homepage-wrapper mb-5 mt-5">
+            <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">ARC Corporate Website (arccorp.com)</h2>
+                <div className="techSub animated fadeInUp">This year we focused on redesigning some of our original pages from first launch and gave more thought into the design of each.  We updated the design, increased usability and worked with relevant stakeholders to create better experiences.</div>               
+            </div>
         <div className="homepage-card-container"> 
         <div className='homepage-container'>
-        <div className="homepage-content">
-                <h2 className="animated slideInUp">ARC Corporate Website (arccorp.com)</h2>                
-            </div>
+       
         <div class="homepage-card-grid">
           <div class="homepage-card homepage-card-1 hero-card-grid-2">
             <div class="homepage-card-copy">Redesigned Pages/Websites</div>

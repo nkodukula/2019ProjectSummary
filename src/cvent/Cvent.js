@@ -5,23 +5,12 @@ class Cvent extends React.Component{
 
     render(){
         return (               
-          <div className="homepage-card-container"> 
-          <div className='homepage-container'>
-          <h2 className="animated slideInUp">CVENT </h2>
-          <div className="homepage-card-grid">
-              <div className="homepage-card homepage-card-1 hero-card-grid-2">
-              <ul>
-                  <li>TravelConnect</li>
-                  <li>ARC  Specialist Training</li>
-                  <li>SPARC</li>
-                  <li>DMWG</li>
-                  <li>ARC  Payments Forum</li>
-                </ul>
-              </div>
-              <div className="homepage-card homepage-card-2 hero-card-grid-2">
-              </div>
-            </div>                           
-        </div>
+          <div className="homepage-wrapper mb-5 mt-5">                     
+            <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">CVENT</h2>
+                <div className="techSub animated fadeInUp">This year we moved mostly to the new Flex website design system within Cvent which provided us with easier website design tools and processes.</div>               
+            </div>
         </div>
         )
     }

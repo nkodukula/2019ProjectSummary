@@ -11,9 +11,13 @@ class Cxux extends React.Component{
     render(){
         return (  
             <div className="homepage-wrapper mb-5 mt-5">  
+            <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">CX/UX Working Groups</h2>
+                <div className="techSub animated fadeInUp">The Flight Design System was created to standardize all web components and UX design within the company.  Repositories were created to house our UX/Design assets, Bootstrap assets and React Javascript libraries.</div>               
+            </div>
             <div className="homepage-card-container"> 
             <div className='homepage-container'>
-                <h2 className="animated slideInUp">CX/UX Working Groups</h2>
                 <div class="homepage-card-grid">
           <div class="homepage-card homepage-card-1 hero-card-grid-2">
             <div class="homepage-card-copy">Research</div>

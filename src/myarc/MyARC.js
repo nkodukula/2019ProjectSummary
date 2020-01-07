@@ -16,11 +16,14 @@ class MyARC extends React.Component{
     render(){
         return ( 
             <div className="homepage-wrapper mb-5 mt-5">
+                <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">My ARC</h2>
+                <div className="techSub animated fadeInUp">We moved documentation and working group pages to Episerver from Documentum.  By doing this, we increased the speed of updates to this pages as well as usability.  We anticipate created more informational pages within Episerver in the future as the environment is already set up to be accessed securely through MyARC login.</div>               
+            </div>
                 <div className="homepage-card-container">
             <div className="homepage-container">
-            <div className="homepage-content">
-                <h2 className="animated slideInUp">My ARC</h2>                
-            </div>
+            
             <div class="homepage-card-grid">
           <div class="homepage-card homepage-card-1 hero-card-grid-2">
             <div class="homepage-card-copy">Redesigned Pages/Websites</div>
@@ -47,14 +50,13 @@ class MyARC extends React.Component{
             
             <div class="homepage-card homepage-card-2">
             <ul>
-            <li><a href="https://www2.arccorp.com/about-us/our-data/">Debit Memo Working Group (DMWG)</a></li>
-                <li><a href="https://www2.arccorp.com/about-us/careers/benefits/">System Provider Working Group (SPWG)</a></li>
-                  <li><a href="https://www2.arccorp.com/about-us/careers/our-culture">ARC Airline Education</a></li>
-                 <li><a href="https://arctraveljourney.com/">Manual for Carriers</a></li>              
-                  <li><a href="https://www2.arccorp.com/imagemaker">ARC Transformation Advisory Council (ATAC)</a></li>
-                 
-                </ul>
-                </div>
+                <li>Debit Memo Working Group (DMWG)</li>
+                <li>System Provider Working Group (SPWG)</li>
+                <li>ARC Airline Education</li>
+                <li>Manual for Carriers</li>              
+                <li>ARC Transformation Advisory Council (ATAC)</li>                 
+            </ul>
+            </div>
             </div>
             </div>
             </div>

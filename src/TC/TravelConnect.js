@@ -11,25 +11,13 @@ class TravelConnect extends React.Component{
 
     render(){
         return (
-            <div className="homepage-wrapper mb-5 mt-5">
-            <div className="homepage-card-container">
-            <div className="homepage-container">
-            <div className="homepage-content">
-                <h2 className="animated slideInUp">ARC TravelConnect 2019</h2>
-                <Card>
-                    <Card.Body>
-                        <ul>
-                        <li>TravelConnect 2019 Website Redesign</li>
-                        <li>TravelConnect 2019 Registration Site in CVENT FLEX</li>
-                        <li>TravelConnect 2019 App built in CrowdCompass with new features</li>
-                        <li>TravelConnect 2019 Post Conference webpage with presentations to download</li>
-                        </ul>
-                    </Card.Body>
-                </Card>              
-
+            <div className="homepage-wrapper mb-5 mt-5">                     
+            <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">ARC TravelConnect 2019</h2>
+                <div className="techSub animated fadeInUp">We built upon our previous updates for the TravelConnect site and integrated Amy’s new design for this years design.  We increased our usage for the TravelConnect mobile app this year with less effort as we had experience from last year.</div>               
             </div>
-            </div>
-            </div>
+            
             <Carousel className="carousel-fade" data-interval="false">
                 <Carousel.Item>
                 <div className="carousel-copy p-5">

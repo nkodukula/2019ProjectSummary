@@ -12,21 +12,10 @@ class TravelJourney extends React.Component{
     render(){
         return (
             <div className="homepage-wrapper mb-5 mt-5">
-                <div className="homepage-card-container">
-            <div className="homepage-container">
-            <div className="homepage-content">
-                <h2 className="animated slideInUp">ARC TravelJourney</h2>
-                <Card>
-                    <Card.Body>
-                <ul>
-                    <li>TravelJourney Website</li>
-                    <li>TravelJourney Touch Screen - featured at GBTA and TravelJourney</li>                   
-                </ul>
-            </Card.Body>
-            </Card>
-
-            </div>
-            </div>
+                <div className="homepage-content techJumbo">
+                <div className="techOpacity"></div>
+                <h2 className="animated fadeInDown">ARC TravelJourney</h2>
+                <div className="techSub animated fadeInUp">The TravelJourney experience this year was created by the web team and is live at https:///www.arctraveljourney.com.  The app is created in React using the future state tech stack.</div>               
             </div>
             <Carousel className="carousel-fade" data-interval="false">
                 <Carousel.Item>
