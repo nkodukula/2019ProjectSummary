@@ -9,7 +9,7 @@ class Campaigns extends React.Component{
              <div className="homepage-content techJumbo">
                 <div className="techOpacity"></div>
                 <h2 className="animated fadeInDown">ARC Campaigns and Social Media Marketing</h2>
-                <div className="techSub animated fadeInUp">Lorem Ipsum</div>               
+                              
             </div>
           <div className="homepage-card-container"> 
           <div className='homepage-container'>

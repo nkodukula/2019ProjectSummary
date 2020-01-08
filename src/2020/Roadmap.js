@@ -15,7 +15,6 @@ class Roadmap extends React.Component{
     <li>TravelConnect 2020</li>
     <li>Credit card acceptance page</li>
     <li>Research Epi cloud – get a demo</li>
-    <li>SEMrush for ARC Pay</li>
   </ul>
   <li>Q2</li>
   <ul>
