@@ -58,7 +58,6 @@ class Corpsite extends React.Component{
                   <li>ARC Events</li>  
                   <li>Integration of Adobe Sign Forms</li>
                   <li>ARC Internal and External Career Portal Customization - iCIMS</li>
-                  <li>ARC Credit Card Acceptance Chart - Payment Acceptance</li>
                   </ul>
             </div>
             
@@ -69,7 +68,6 @@ class Corpsite extends React.Component{
                   <li><a href="https://www2.arccorp.com/about-us/careers/our-culture">Our  Culture</a></li>                          
                   <li><a href="https://www2.arccorp.com/imagemaker">Image Maker</a></li>
                   <li><a href="https://www2.arccorp.com/styleguide">ARC Style Guide</a></li>
-                  <li>ARC News Room</li>
                   <li>Product Sales Request Form Templates<br />
             <a href="https://www2.arccorp.com/products-participation/product-sales-request/airlinebi-a">Template 1</a><br />
             <a href="https://www2.arccorp.com/products-participation/product-sales-request/airlinebi-b">Template 2</a><br />
