@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Card, { CardBody } from 'react-bootstrap/Card';
 import image1 from './tj1.jpg';
 import image2 from './tj2.jpg'
 import image3 from './tj3.jpg'

@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Card, { CardBody } from 'react-bootstrap/Card';
 import image1 from './sharepoint1.jpg';
 import image2 from './sharepoint2.jpg';
 import image3 from './sharepoint3.jpg';

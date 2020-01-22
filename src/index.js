@@ -16,6 +16,7 @@ import TravelJourney from './TravelJourney/TravelJourney';
 import Cvent from './cvent/Cvent';
 import Roadmap from './2020/Roadmap';
 import Sharepoint from './sharepoint/Sharepoint';
+import Prj2020 from './2020Prj/Prj2020';
 
 const routing = (
   <Router>
@@ -32,6 +33,7 @@ const routing = (
       <Route path="/cvent" component={Cvent} />
       <Route path="/2020" component={Roadmap} />
       <Route path="/sharepoint" component={Sharepoint} />
+      <Route path="/2020Prj" component={Prj2020} />
     
     </div>
   </Router>

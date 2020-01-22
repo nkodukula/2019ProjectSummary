@@ -1,12 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Card, { CardBody } from 'react-bootstrap/Card';
 import image1 from './tc-web.jpg';
 import image2 from './tc-app.jpg'
 import image3 from './tc-cvent.jpg'
 import image4 from './tc-post.jpg'
 import image5 from './tc-web1.jpg';
 import image6 from './tc-web2.jpg';
+import image7 from './tc2018.jpg';
+import image8 from './tc2018reg.jpg';
 
 
 class TravelConnect extends React.Component{
@@ -21,6 +22,28 @@ class TravelConnect extends React.Component{
             </div>
             
             <Carousel className="carousel-fade" data-interval="false">
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>TravelConnect 2018 Website</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image8}
+                    alt="TravelConnect 2018 Website"
+                    />
+                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="carousel-copy p-5">
+                <h3>TravelConnect 2018 Website</h3>
+                    </div>
+                    <img
+                    className="d-block w-100"
+                    src={image7}
+                    alt="TravelConnect 2018 Website"
+                    />
+                    
+                </Carousel.Item>
                 <Carousel.Item>
                 <div className="carousel-copy p-5">
                 <h3>TravelConnect 2019 Website</h3>
